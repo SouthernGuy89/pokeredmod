@@ -1404,18 +1404,19 @@ KakunaEvosMoves:
 	db EVOLVE_LEVEL, 10, BEEDRILL
 	db 0
 ; Learnset
+    db 7, HARDEN
 	db 0
 
 BeedrillEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 12, FURY_ATTACK
-	db 16, FOCUS_ENERGY
+	db 10, PIN_MISSILE
+	db 16, SHARPEN
 	db 20, TWINEEDLE
 	db 25, RAGE
-	db 30, PIN_MISSILE
-	db 35, AGILITY
+	db 30, AGILITY
+	db 35, MEGAHORN
 	db 0
 
 MissingNo73EvosMoves:
@@ -1519,10 +1520,9 @@ ButterfreeEvosMoves:
 	db 13, POISONPOWDER
 	db 14, STUN_SPORE
 	db 15, SLEEP_POWDER
-	db 18, SUPERSONIC
-	db 23, WHIRLWIND
-	db 28, GUST
-	db 34, PSYBEAM
+	db 18, GUST
+	db 23, PSYBEAM
+	db 34, PSYCHIC_M
 	db 0
 
 MachampEvosMoves:
