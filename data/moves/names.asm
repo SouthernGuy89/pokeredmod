@@ -170,5 +170,6 @@ MoveNames::
 	li "DRAGON CLAW"
 	li "MEGAHORN"
 	li "BULLDOZE"
+	li "BRAVE BIRD"
 	li "STRUGGLE"
 	assert_list_length NUM_ATTACKS
