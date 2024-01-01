@@ -256,11 +256,12 @@ SpearowEvosMoves:
 	db EVOLVE_LEVEL, 20, FEAROW
 	db 0
 ; Learnset
-	db 9, LEER
-	db 15, FURY_ATTACK
+	db 7, LEER
+	db 13, FURY_ATTACK
 	db 22, MIRROR_MOVE
 	db 29, DRILL_PECK
 	db 36, AGILITY
+	db 46, BRAVE_BIRD
 	db 0
 
 VoltorbEvosMoves:
@@ -598,6 +599,7 @@ FearowEvosMoves:
 	db 25, MIRROR_MOVE
 	db 34, DRILL_PECK
 	db 43, AGILITY
+	db 51, BRAVE_BIRD
 	db 0
 
 PidgeyEvosMoves:
@@ -606,11 +608,13 @@ PidgeyEvosMoves:
 	db 0
 ; Learnset
 	db 5, SAND_ATTACK
+	db 9, GUST
 	db 12, QUICK_ATTACK
 	db 19, WHIRLWIND
-	db 28, WING_ATTACK
-	db 36, AGILITY
-	db 44, MIRROR_MOVE
+	db 26, WING_ATTACK
+	db 33, AGILITY
+	db 41, BRAVE_BIRD
+	db 48, MIRROR_MOVE
 	db 0
 
 SlowpokeEvosMoves:
@@ -714,11 +718,12 @@ ArbokEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 10, POISON_STING
-	db 17, BITE
-	db 27, GLARE
-	db 36, SCREECH
-	db 47, ACID
+	db 9, POISON_STING
+	db 15, BITE
+	db 25, GLARE
+	db 33, SCREECH
+	db 43, SLUDGE_BOMB
+	db 51, HAZE
 	db 0
 
 ParasectEvosMoves:
@@ -1107,6 +1112,15 @@ RaichuEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+	db 6, TAIL_WHIP
+	db 8, THUNDER_WAVE
+	db 11, QUICK_ATTACK
+	db 15, DOUBLE_TEAM
+	db 20, SLAM
+	db 26, THUNDERBOLT
+	db 33, AGILITY
+	db 41, THUNDER
+	db 50, LIGHT_SCREEN
 	db 0
 
 MissingNo56EvosMoves:
@@ -1206,22 +1220,26 @@ SandshrewEvosMoves:
 	db EVOLVE_LEVEL, 22, SANDSLASH
 	db 0
 ; Learnset
-	db 10, SAND_ATTACK
-	db 17, SLASH
-	db 24, POISON_STING
+	db 6, POISON_STING
+	db 11, SAND_ATTACK
+	db 17, BULLDOZE
+	db 24, SLASH
 	db 31, SWIFT
 	db 38, FURY_SWIPES
+	db 45, EARTHQUAKE
 	db 0
 
 SandslashEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 10, SAND_ATTACK
-	db 17, SLASH
-	db 27, POISON_STING
+	db 6, POISON_STING
+	db 11, SAND_ATTACK
+	db 17, BULLDOZE
+	db 24, SLASH
 	db 36, SWIFT
 	db 47, FURY_SWIPES
+	db 52, EARTHQUAKE
 	db 0
 
 OmanyteEvosMoves:
@@ -1352,11 +1370,13 @@ EkansEvosMoves:
 	db EVOLVE_LEVEL, 22, ARBOK
 	db 0
 ; Learnset
-	db 10, POISON_STING
-	db 17, BITE
-	db 24, GLARE
-	db 31, SCREECH
-	db 38, ACID
+	db 9, POISON_STING
+	db 15, BITE
+	db 19, ACID
+	db 23, GLARE
+	db 29, SCREECH
+	db 38, SLUDGE_BOMB
+	db 43, HAZE
 	db 0
 
 ParasEvosMoves:
@@ -1752,11 +1772,13 @@ PidgeottoEvosMoves:
 	db 0
 ; Learnset
 	db 5, SAND_ATTACK
+	db 9, GUST
 	db 12, QUICK_ATTACK
 	db 21, WHIRLWIND
-	db 31, WING_ATTACK
-	db 40, AGILITY
-	db 49, MIRROR_MOVE
+	db 30, WING_ATTACK
+	db 37, AGILITY
+	db 44, BRAVE_BIRD
+	db 51, MIRROR_MOVE
 	db 0
 
 PidgeotEvosMoves:
@@ -1766,9 +1788,10 @@ PidgeotEvosMoves:
 	db 5, SAND_ATTACK
 	db 12, QUICK_ATTACK
 	db 21, WHIRLWIND
-	db 31, WING_ATTACK
-	db 44, AGILITY
-	db 54, MIRROR_MOVE
+	db 30, WING_ATTACK
+	db 39, AGILITY
+	db 47, BRAVE_BIRD
+	db 56, MIRROR_MOVE
 	db 0
 
 StarmieEvosMoves:
@@ -1906,6 +1929,7 @@ RattataEvosMoves:
 	db 7, QUICK_ATTACK
 	db 14, HYPER_FANG
 	db 23, FOCUS_ENERGY
+	db 30, BODY_SLAM
 	db 34, SUPER_FANG
 	db 0
 
@@ -1916,6 +1940,7 @@ RaticateEvosMoves:
 	db 7, QUICK_ATTACK
 	db 14, HYPER_FANG
 	db 27, FOCUS_ENERGY
+	db 34, BODY_SLAM
 	db 41, SUPER_FANG
 	db 0
 
