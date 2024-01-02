@@ -97,63 +97,11 @@ CalcStat::
 	ld bc, wPartyMon1DVs - (wPartyMon1HPExp - 1) ; also wEnemyMonDVs - wEnemyMonHP
 	add hl, bc
 	pop bc
-	ld a, c
-	cp $2
-	jr z, .getAttackIV
-	cp $3
-	jr z, .getDefenseIV
-	cp $4
-	jr z, .getSpeedIV
-	cp $5
-	jr z, .getSpecialIV
-.getHpIV
-	push bc
-	ld a, [hl]  ; Atk IV
-	swap a
-	and $1
-	sla a
-	sla a
-	sla a
-	ld b, a
-	ld a, [hli] ; Def IV
-	and $1
-	sla a
-	sla a
-	add b
-	ld b, a
-	ld a, [hl] ; Spd IV
-	swap a
-	and $1
-	sla a
-	add b
-	ld b, a
-	ld a, [hl] ; Spc IV
-	and $1
-	add b      ; HP IV: LSB of the other 4 IVs
-	pop bc
-	jr .calcStatFromIV
-.getAttackIV
-	ld a, [hl]
-	swap a
-	and $f
-	jr .calcStatFromIV
-.getDefenseIV
-	ld a, [hl]
-	and $f
-	jr .calcStatFromIV
-.getSpeedIV
-	inc hl
-	ld a, [hl]
-	swap a
-	and $f
-	jr .calcStatFromIV
-.getSpecialIV
-	inc hl
-	ld a, [hl]
-	and $f
-.calcStatFromIV
+.calcStatFromMaxIV
 	ld d, $0
+	ld a, $0
 	add e
+	add $f
 	ld e, a
 	jr nc, .noCarry
 	inc d                     ; de = Base + IV
