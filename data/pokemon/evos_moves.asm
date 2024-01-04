@@ -230,12 +230,12 @@ NidoranMEvosMoves:
 	db EVOLVE_LEVEL, 16, NIDORINO
 	db 0
 ; Learnset
-	db 8, HORN_ATTACK
-	db 12, DOUBLE_KICK
-	db 17, POISON_STING
-	db 23, FOCUS_ENERGY
-	db 30, FURY_ATTACK
-	db 38, HORN_DRILL
+	db 8, POISON_STING
+	db 11, DOUBLE_KICK
+	db 15, ACID
+	db 23, REFLECT
+	db 27, BODY_SLAM
+	db 35, SLUDGE_BOMB
 	db 0
 
 ClefairyEvosMoves:
@@ -280,9 +280,13 @@ NidokingEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 8, HORN_ATTACK
-	db 12, DOUBLE_KICK
-	db 23, THRASH
+	db 8, POISON_STING
+	db 11, DOUBLE_KICK
+	db 15, ACID
+	db 25, REFLECT
+	db 33, BODY_SLAM
+	db 40, SLUDGE_BOMB
+	db 50, EARTHQUAKE
 	db 0
 
 SlowbroEvosMoves:
@@ -369,21 +373,25 @@ NidoranFEvosMoves:
 	db EVOLVE_LEVEL, 16, NIDORINA
 	db 0
 ; Learnset
-	db 8, SCRATCH
-	db 12, DOUBLE_KICK
-	db 17, POISON_STING
-	db 23, TAIL_WHIP
-	db 30, BITE
-	db 38, FURY_SWIPES
+	db 8, POISON_STING
+	db 11, DOUBLE_KICK
+	db 15, ACID
+	db 23, REFLECT
+	db 27, BODY_SLAM
+	db 35, SLUDGE_BOMB
 	db 0
 
 NidoqueenEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 8, SCRATCH
-	db 12, DOUBLE_KICK
-	db 23, BODY_SLAM
+	db 8, POISON_STING
+	db 11, DOUBLE_KICK
+	db 15, ACID
+	db 25, REFLECT
+	db 33, BODY_SLAM
+	db 40, SLUDGE_BOMB
+	db 50, EARTHQUAKE
 	db 0
 
 CuboneEvosMoves:
@@ -719,11 +727,12 @@ ArbokEvosMoves:
 	db 0
 ; Learnset
 	db 9, POISON_STING
-	db 15, BITE
+	db 15, ACID
+	db 19, BITE
 	db 25, GLARE
-	db 33, SCREECH
-	db 43, SLUDGE_BOMB
-	db 51, HAZE
+	db 31, SCREECH
+	db 39, SLUDGE_BOMB
+	db 43, HAZE
 	db 0
 
 ParasectEvosMoves:
@@ -1371,8 +1380,8 @@ EkansEvosMoves:
 	db 0
 ; Learnset
 	db 9, POISON_STING
-	db 15, BITE
-	db 19, ACID
+	db 15, ACID
+	db 19, BITE
 	db 23, GLARE
 	db 29, SCREECH
 	db 38, SLUDGE_BOMB
@@ -1949,12 +1958,12 @@ NidorinoEvosMoves:
 	db EVOLVE_ITEM, MOON_STONE, 1, NIDOKING
 	db 0
 ; Learnset
-	db 8, HORN_ATTACK
-	db 12, DOUBLE_KICK
-	db 19, POISON_STING
-	db 27, FOCUS_ENERGY
-	db 36, FURY_ATTACK
-	db 46, HORN_DRILL
+	db 8, POISON_STING
+	db 11, DOUBLE_KICK
+	db 15, ACID
+	db 25, REFLECT
+	db 30, BODY_SLAM
+	db 38, SLUDGE_BOMB
 	db 0
 
 NidorinaEvosMoves:
@@ -1962,12 +1971,12 @@ NidorinaEvosMoves:
 	db EVOLVE_ITEM, MOON_STONE, 1, NIDOQUEEN
 	db 0
 ; Learnset
-	db 8, SCRATCH
-	db 12, DOUBLE_KICK
-	db 19, POISON_STING
-	db 27, TAIL_WHIP
-	db 36, BITE
-	db 46, FURY_SWIPES
+	db 8, POISON_STING
+	db 11, DOUBLE_KICK
+	db 15, ACID
+	db 25, REFLECT
+	db 30, BODY_SLAM
+	db 38, SLUDGE_BOMB
 	db 0
 
 GeodudeEvosMoves:
