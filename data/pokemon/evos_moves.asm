@@ -243,12 +243,13 @@ ClefairyEvosMoves:
 	db EVOLVE_ITEM, MOON_STONE, 1, CLEFABLE
 	db 0
 ; Learnset
-	db 13, SING
-	db 18, DOUBLESLAP
-	db 24, MINIMIZE
-	db 31, METRONOME
-	db 39, DEFENSE_CURL
-	db 48, LIGHT_SCREEN
+	db 18, HEADBUTT
+	db 24, THUNDERPUNCH
+	db 25, FIRE_PUNCH
+	db 26, ICE_PUNCH
+	db 31, BODY_SLAM
+	db 39, LIGHT_SCREEN
+	db 44, AMNESIA
 	db 0
 
 SpearowEvosMoves:
@@ -1230,11 +1231,11 @@ SandshrewEvosMoves:
 	db 0
 ; Learnset
 	db 6, POISON_STING
-	db 11, SAND_ATTACK
+	db 11, DEFENSE_CURL
 	db 17, BULLDOZE
 	db 24, SLASH
 	db 31, SWIFT
-	db 38, FURY_SWIPES
+	db 38, SWORDS_DANCE
 	db 45, EARTHQUAKE
 	db 0
 
@@ -1243,11 +1244,11 @@ SandslashEvosMoves:
 	db 0
 ; Learnset
 	db 6, POISON_STING
-	db 11, SAND_ATTACK
+	db 11, DEFENSE_CURL
 	db 17, BULLDOZE
 	db 24, SLASH
 	db 36, SWIFT
-	db 47, FURY_SWIPES
+	db 47, SWORDS_DANCE
 	db 52, EARTHQUAKE
 	db 0
 
@@ -1280,16 +1281,25 @@ JigglypuffEvosMoves:
 	db 9, POUND
 	db 14, DISABLE
 	db 19, DEFENSE_CURL
-	db 24, DOUBLESLAP
+	db 24, BODY_SLAM
 	db 29, REST
-	db 34, BODY_SLAM
-	db 39, DOUBLE_EDGE
+	db 34, DOUBLE_EDGE
+	db 39, EXPLOSION
 	db 0
 
 WigglytuffEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+db 9, POUND
+	db 9, POUND
+	db 14, DISABLE
+	db 19, DEFENSE_CURL
+	db 24, BODY_SLAM
+	db 29, REST
+	db 34, DOUBLE_EDGE
+	db 39, EXPLOSION
+	db 44, HYPER_BEAM
 	db 0
 
 EeveeEvosMoves:
@@ -1367,11 +1377,12 @@ ZubatEvosMoves:
 	db EVOLVE_LEVEL, 22, GOLBAT
 	db 0
 ; Learnset
-	db 10, SUPERSONIC
-	db 15, BITE
+	db 10, BITE
+	db 15, WING_ATTACK
 	db 21, CONFUSE_RAY
-	db 28, WING_ATTACK
-	db 36, HAZE
+	db 28, HAZE
+	db 36, SLUDGE_BOMB
+	db 44, BRAVE_BIRD
 	db 0
 
 EkansEvosMoves:
@@ -1598,11 +1609,12 @@ GolbatEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 10, SUPERSONIC
-	db 15, BITE
+	db 10, BITE
+	db 15, WING_ATTACK
 	db 21, CONFUSE_RAY
-	db 32, WING_ATTACK
-	db 43, HAZE
+	db 29, HAZE
+	db 38, SLUDGE_BOMB
+	db 46, BRAVE_BIRD
 	db 0
 
 MewtwoEvosMoves:
@@ -1703,6 +1715,15 @@ ClefableEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+db 13, SING
+	db 18, HEADBUTT
+	db 24, THUNDERPUNCH
+	db 25, FIRE_PUNCH
+	db 26, ICE_PUNCH
+	db 31, BODY_SLAM
+	db 39, LIGHT_SCREEN
+	db 44, AMNESIA
+	db 51, HYPER_BEAM
 	db 0
 
 WeezingEvosMoves:
