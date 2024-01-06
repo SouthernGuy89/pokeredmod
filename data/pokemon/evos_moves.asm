@@ -1383,6 +1383,7 @@ ZubatEvosMoves:
 	db 25, SLUDGE
 	db 28, HAZE
 	db 36, SLUDGE_BOMB
+	db 40, SCREECH
 	db 44, BRAVE_BIRD
 	db 0
 
@@ -1616,6 +1617,7 @@ GolbatEvosMoves:
 	db 26, SLUDGE
 	db 29, HAZE
 	db 38, SLUDGE_BOMB
+	db 42, SCREECH
 	db 46, BRAVE_BIRD
 	db 0
 
