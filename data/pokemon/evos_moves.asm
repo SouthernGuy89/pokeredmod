@@ -2165,11 +2165,13 @@ OddishEvosMoves:
 	db EVOLVE_LEVEL, 21, GLOOM
 	db 0
 ; Learnset
+	db 12, ACID
 	db 15, POISONPOWDER
 	db 17, STUN_SPORE
-	db 19, SLEEP_POWDER
-	db 24, ACID
-	db 33, PETAL_DANCE
+	db 19, LEECH_SEED
+	db 24, SLEEP_POWDER
+	db 33, RAZOR_LEAF
+	db 39, SLUDGE_BOMB
 	db 46, SOLARBEAM
 	db 0
 
@@ -2178,11 +2180,13 @@ GloomEvosMoves:
 	db EVOLVE_ITEM, LEAF_STONE, 1, VILEPLUME
 	db 0
 ; Learnset
+	db 12, ACID
 	db 15, POISONPOWDER
 	db 17, STUN_SPORE
-	db 19, SLEEP_POWDER
-	db 28, ACID
-	db 38, PETAL_DANCE
+	db 19, LEECH_SEED
+	db 27, SLEEP_POWDER
+	db 36, RAZOR_LEAF
+	db 44, SLUDGE_BOMB
 	db 52, SOLARBEAM
 	db 0
 
@@ -2190,9 +2194,14 @@ VileplumeEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+	db 12, ACID
 	db 15, POISONPOWDER
 	db 17, STUN_SPORE
-	db 19, SLEEP_POWDER
+	db 19, LEECH_SEED
+	db 27, SLEEP_POWDER
+	db 36, RAZOR_LEAF
+	db 41, SLUDGE_BOMB
+	db 49, SOLARBEAM
 	db 0
 
 BellsproutEvosMoves:
@@ -2203,10 +2212,10 @@ BellsproutEvosMoves:
 	db 13, WRAP
 	db 15, POISONPOWDER
 	db 18, SLEEP_POWDER
-	db 21, STUN_SPORE
-	db 26, ACID
+	db 21, ACID
+	db 26, STUN_SPORE
+	db 29, SLAM
 	db 33, RAZOR_LEAF
-	db 42, SLAM
 	db 0
 
 WeepinbellEvosMoves:
@@ -2217,10 +2226,11 @@ WeepinbellEvosMoves:
 	db 13, WRAP
 	db 15, POISONPOWDER
 	db 18, SLEEP_POWDER
-	db 23, STUN_SPORE
-	db 29, ACID
+	db 23, ACID
+	db 29, STUN_SPORE
+	db 33, SLAM
 	db 38, RAZOR_LEAF
-	db 49, SLAM
+	db 49, BODY_SLAM
 	db 0
 
 VictreebelEvosMoves:
@@ -2230,4 +2240,9 @@ VictreebelEvosMoves:
 	db 13, WRAP
 	db 15, POISONPOWDER
 	db 18, SLEEP_POWDER
+	db 23, ACID
+	db 29, STUN_SPORE
+	db 33, SLAM
+	db 38, RAZOR_LEAF
+	db 49, BODY_SLAM
 	db 0
