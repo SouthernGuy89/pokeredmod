@@ -1380,6 +1380,7 @@ ZubatEvosMoves:
 	db 10, BITE
 	db 15, WING_ATTACK
 	db 21, CONFUSE_RAY
+	db 25, SLUDGE
 	db 28, HAZE
 	db 36, SLUDGE_BOMB
 	db 44, BRAVE_BIRD
@@ -1612,6 +1613,7 @@ GolbatEvosMoves:
 	db 10, BITE
 	db 15, WING_ATTACK
 	db 21, CONFUSE_RAY
+	db 26, SLUDGE
 	db 29, HAZE
 	db 38, SLUDGE_BOMB
 	db 46, BRAVE_BIRD
