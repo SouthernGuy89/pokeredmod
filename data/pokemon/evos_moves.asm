@@ -538,7 +538,7 @@ BlastoiseEvosMoves:
 	db 0
 ; Learnset
 	db 7, BUBBLE
-	db 13, WATER_GUN
+	db 10, WATER_GUN
 	db 19, BITE
 	db 25, WITHDRAW
 	db 42, SKULL_BASH
@@ -2138,7 +2138,7 @@ SquirtleEvosMoves:
 	db 0
 ; Learnset
 	db 7, BUBBLE
-	db 13, WATER_GUN
+	db 10, WATER_GUN
 	db 18, BITE
 	db 23, WITHDRAW
 	db 35, SKULL_BASH
@@ -2165,7 +2165,7 @@ WartortleEvosMoves:
 	db 0
 ; Learnset
 	db 7, BUBBLE
-	db 13, WATER_GUN
+	db 10, WATER_GUN
 	db 19, BITE
 	db 25, WITHDRAW
 	db 39, SKULL_BASH
