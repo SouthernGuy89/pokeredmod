@@ -740,11 +740,14 @@ ParasectEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+	db  9, LEECH_LIFE
 	db 13, STUN_SPORE
-	db 20, LEECH_LIFE
-	db 30, SPORE
-	db 39, SLASH
-	db 48, GROWTH
+	db 20, TWINEEDLE
+	db 27, SPORE
+	db 35, SLASH
+	db 40, GROWTH
+	db 44, ACID
+	db 51, MEGAHORN
 	db 0
 
 PsyduckEvosMoves:
@@ -884,6 +887,7 @@ DiglettEvosMoves:
 	db 19, DIG
 	db 24, SAND_ATTACK
 	db 31, SLASH
+	db 36, ROCK_SLIDE
 	db 40, EARTHQUAKE
 	db 0
 
@@ -932,14 +936,17 @@ VenonatEvosMoves:
 	db EVOLVE_LEVEL, 31, VENOMOTH
 	db 0
 ; Learnset
-	db 11, SUPERSONIC
+	db  9, SUPERSONIC
+	db 12, ACID
+	db 15, LEECH_LIFE
 	db 19, CONFUSION
 	db 22, POISONPOWDER
-	db 27, LEECH_LIFE
+	db 27, TWINEEDLE
 	db 30, STUN_SPORE
 	db 35, PSYBEAM
 	db 38, SLEEP_POWDER
 	db 43, PSYCHIC_M
+	db 51, SLUDGE_BOMB
 	db 0
 
 DragoniteEvosMoves:
@@ -1406,11 +1413,14 @@ ParasEvosMoves:
 	db EVOLVE_LEVEL, 24, PARASECT
 	db 0
 ; Learnset
+	db  9, LEECH_LIFE
 	db 13, STUN_SPORE
-	db 20, LEECH_LIFE
-	db 27, SPORE
-	db 34, SLASH
-	db 41, GROWTH
+	db 20, TWINEEDLE
+	db 25, SPORE
+	db 32, SLASH
+	db 37, GROWTH
+	db 41, ACID
+	db 48, MEGAHORN
 	db 0
 
 PoliwhirlEvosMoves:
@@ -1501,6 +1511,7 @@ DugtrioEvosMoves:
 	db 19, DIG
 	db 24, SAND_ATTACK
 	db 35, SLASH
+	db 40, ROCK_SLIDE
 	db 47, EARTHQUAKE
 	db 0
 
@@ -1508,12 +1519,17 @@ VenomothEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+	db  9, SUPERSONIC
+	db 12, ACID
+	db 15, LEECH_LIFE
+	db 19, CONFUSION
 	db 22, POISONPOWDER
-	db 27, LEECH_LIFE
+	db 27, TWINEEDLE
 	db 30, STUN_SPORE
-	db 38, PSYBEAM
-	db 43, SLEEP_POWDER
-	db 50, PSYCHIC_M
+	db 37, PSYBEAM
+	db 40, SLEEP_POWDER
+	db 45, PSYCHIC_M
+	db 53, SLUDGE_BOMB
 	db 0
 
 DewgongEvosMoves:
