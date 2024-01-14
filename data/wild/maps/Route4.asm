@@ -1,25 +1,25 @@
 Route4WildMons:
 	def_grass_wildmons 20 ; encounter rate
-	db 10, RATTATA
-	db 10, SPEAROW
-	db  8, RATTATA
+	db 16, RATTATA
+	db 16, SPEAROW
+	db 15, RATTATA
 IF DEF(_RED)
-	db  6, EKANS
-	db  8, SPEAROW
-	db 10, EKANS
-	db 12, RATTATA
-	db 12, SPEAROW
-	db  8, EKANS
-	db 12, EKANS
+	db 15, EKANS
+	db 15, SPEAROW
+	db 16, EKANS
+	db 17, RATTATA
+	db 17, SPEAROW
+	db 15, EKANS
+	db 17, EKANS
 ENDC
 IF DEF(_BLUE)
-	db  6, SANDSHREW
-	db  8, SPEAROW
-	db 10, SANDSHREW
-	db 12, RATTATA
-	db 12, SPEAROW
-	db  8, SANDSHREW
-	db 12, SANDSHREW
+	db 15, SANDSHREW
+	db 15, SPEAROW
+	db 16, SANDSHREW
+	db 17, RATTATA
+	db 17, SPEAROW
+	db 15, SANDSHREW
+	db 17, SANDSHREW
 ENDC
 	end_grass_wildmons
 
