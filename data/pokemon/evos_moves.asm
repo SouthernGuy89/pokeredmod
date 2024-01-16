@@ -874,7 +874,7 @@ MankeyEvosMoves:
 	db 0
 ; Learnset
 	db 9, LOW_KICK
-	db 15, HEADBUTT
+	db 15, QUICK_ATTACK
 	db 21, FURY_SWIPES
 	db 27, MEDITATE
 	db 33, SEISMIC_TOSS
@@ -1133,12 +1133,12 @@ PikachuEvosMoves:
 	db 0
 ; Learnset
 	db 6, TAIL_WHIP
-	db 8, THUNDER_WAVE
-	db 11, QUICK_ATTACK
+	db 8, QUICK_ATTACK
+	db 11, THUNDER_WAVE
 	db 15, DOUBLE_TEAM
-	db 20, SLAM
-	db 26, THUNDERBOLT
-	db 33, AGILITY
+	db 20, THUNDERPUNCH
+	db 26, AGILITY
+	db 33, THUNDERBOLT
 	db 41, THUNDER
 	db 50, LIGHT_SCREEN
 	db 0
@@ -1148,12 +1148,12 @@ RaichuEvosMoves:
 	db 0
 ; Learnset
 	db 6, TAIL_WHIP
-	db 8, THUNDER_WAVE
-	db 11, QUICK_ATTACK
+	db 8, QUICK_ATTACK
+	db 11, THUNDER_WAVE
 	db 15, DOUBLE_TEAM
-	db 20, SLAM
-	db 26, THUNDERBOLT
-	db 33, AGILITY
+	db 20, THUNDERPUNCH
+	db 26, AGILITY
+	db 33, THUNDERBOLT
 	db 41, THUNDER
 	db 50, LIGHT_SCREEN
 	db 0
@@ -1520,7 +1520,7 @@ PrimeapeEvosMoves:
 	db 0
 ; Learnset
 	db 9, LOW_KICK
-	db 15, HEADBUTT
+	db 15, QUICK_ATTACK
 	db 21, FURY_SWIPES
 	db 27, MEDITATE
 	db 28, RAGE
