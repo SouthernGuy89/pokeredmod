@@ -694,11 +694,12 @@ MachokeEvosMoves:
 	db EVOLVE_TRADE, 1, MACHAMP
 	db 0
 ; Learnset
+	db 15, LEER
 	db 20, HEADBUTT
-	db 25, LEER
-	db 36, MEDITATE
-	db 44, SEISMIC_TOSS
-	db 52, SUBMISSION
+	db 25, MEDITATE
+	db 33, SUBMISSION
+	db 38, SEISMIC_TOSS
+	db 43, KARATE_CHOP
 	db 0
 
 MrMimeEvosMoves:
@@ -873,11 +874,11 @@ MankeyEvosMoves:
 	db 0
 ; Learnset
 	db 9, LOW_KICK
-	db 15, KARATE_CHOP
+	db 15, HEADBUTT
 	db 21, FURY_SWIPES
 	db 27, MEDITATE
 	db 33, SEISMIC_TOSS
-	db 39, THRASH
+	db 39, KARATE_CHOP
 	db 45, SCREECH
 	db 0
 
@@ -1389,11 +1390,12 @@ MachopEvosMoves:
 	db EVOLVE_LEVEL, 28, MACHOKE
 	db 0
 ; Learnset
+	db 15, LEER
 	db 20, HEADBUTT
-	db 25, LEER
-	db 32, MEDITATE
-	db 39, SEISMIC_TOSS
-	db 46, SUBMISSION
+	db 25, MEDITATE
+	db 30, SUBMISSION
+	db 35, SEISMIC_TOSS
+	db 40, KARATE_CHOP
 	db 0
 
 ZubatEvosMoves:
@@ -1518,12 +1520,12 @@ PrimeapeEvosMoves:
 	db 0
 ; Learnset
 	db 9, LOW_KICK
-	db 15, KARATE_CHOP
+	db 15, HEADBUTT
 	db 21, FURY_SWIPES
 	db 27, MEDITATE
 	db 28, RAGE
 	db 37, SEISMIC_TOSS
-	db 46, THRASH
+	db 46, KARATE_CHOP
 	db 45, SCREECH
 	db 0
 
@@ -1613,11 +1615,12 @@ MachampEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+	db 15, LEER
 	db 20, HEADBUTT
-	db 25, LEER
-	db 36, MEDITATE
-	db 44, SEISMIC_TOSS
-	db 52, SUBMISSION
+	db 25, MEDITATE
+	db 33, SUBMISSION
+	db 38, SEISMIC_TOSS
+	db 43, KARATE_CHOP
 	db 0
 
 MissingNo7FEvosMoves:
