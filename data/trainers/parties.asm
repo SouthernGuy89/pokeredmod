@@ -95,8 +95,8 @@ BugCatcherData:
 ; Route 24
 	db 14, BUTTERFREE, BEEDRILL, 0
 ; Route 6
-	db 16, WEEDLE, CATERPIE, WEEDLE, 0
-	db 20, BUTTERFREE, 0
+	db 19, PARAS, VENONAT, BEEDRILL, 0
+	db 21, BUTTERFREE, 0
 ; Unused
 	db 18, METAPOD, CATERPIE, VENONAT, 0
 ; Route 9
@@ -153,8 +153,8 @@ JrTrainerMData:
 ; Route 24
 	db 18, MANKEY, MEOWTH, BELLSPROUT, 0
 ; Route 6
-	db 20, SQUIRTLE, 0
-	db 16, SPEAROW, RATICATE, 0
+	db 21, WARTORTLE, 0
+	db 18, DIGLETT, RATICATE, 0
 ; Unused
 	db 18, DIGLETT, DIGLETT, SANDSHREW, 0
 ; Route 9
@@ -167,8 +167,8 @@ JrTrainerFData:
 ; Cerulean Gym
 	db 19, GOLDEEN, 0
 ; Route 6
-	db 16, RATTATA, PIKACHU, 0
-	db 16, PIDGEY, PIDGEY, PIDGEY, 0
+	db 19, POLIWAG, PIKACHU, 0
+	db 19, VULPIX, BELLSPROUT, PIDGEOTTO, 0
 ; Unused
 	db 22, BULBASAUR, 0
 ; Route 9
@@ -333,7 +333,7 @@ FisherData:
 
 SwimmerData:
 ; Cerulean Gym
-	db 16, HORSEA, SHELLDER, 0
+	db 18, HORSEA, SHELLDER, 0
 ; Route 19
 	db 30, TENTACOOL, SHELLDER, 0
 	db 29, GOLDEEN, HORSEA, STARYU, 0
@@ -548,7 +548,7 @@ RocketData:
 	db 13, ZUBAT, PIKACHU, 0
 	db 16, RATICATE, 0
 ; Cerulean City
-	db 17, MACHOP, DROWZEE, 0
+	db 21, MACHOP, DROWZEE, PIDGEOTTO, 0
 ; Route 24
 	db 17, MACHOP, ZUBAT, DROWZEE, ODDISH, 0
 ; Game Corner
