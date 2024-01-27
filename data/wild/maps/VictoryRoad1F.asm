@@ -5,7 +5,7 @@ VictoryRoad1FWildMons:
 	db 22, ZUBAT
 	db 36, ONIX
 	db 39, ONIX
-	db 42, ONIX
+	db 42, HITMONCHAN
 	db 41, GRAVELER
 	db 41, GOLBAT
 	db 42, MACHOKE
