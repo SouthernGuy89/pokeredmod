@@ -6,16 +6,21 @@ CeruleanCaveB1FWildMons:
 	db 64, CHANSEY
 	db 64, PARASECT
 	db 64, RAICHU
-IF DEF(_RED)
-	db 57, ARBOK
-ENDC
-IF DEF(_BLUE)
-	db 57, SANDSLASH
-ENDC
+	db 65, AERODACTYL
 	db 65, DITTO
 	db 63, DITTO
 	db 67, DITTO
 	end_grass_wildmons
 
-	def_water_wildmons 0 ; encounter rate
+	def_water_wildmons 5 ; encounter rate
+	db 65, TENTACRUEL
+	db 55, LAPRAS
+	db 65, SLOWBRO
+	db 65, DRAGONAIR
+	db 65, STARMIE
+	db 65, OMANYTE
+	db 65, LAPRAS
+	db 65, KABUTO
+	db 65, GYARADOS
+	db 65, DRAGONITE
 	end_water_wildmons

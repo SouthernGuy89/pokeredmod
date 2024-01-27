@@ -6,8 +6,8 @@ VictoryRoad3FWildMons:
 	db 42, ONIX
 	db 40, VENOMOTH
 	db 45, ONIX
-	db 43, GRAVELER
-	db 41, GOLBAT
+	db 43, PINSIR
+	db 41, SCYTHER
 	db 42, MACHOKE
 	db 45, MACHOKE
 	end_grass_wildmons
