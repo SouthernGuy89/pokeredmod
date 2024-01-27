@@ -7,7 +7,7 @@ IF DEF(_RED)
 	db 24, VENONAT
 	db 22, ODDISH
 	db 26, VENONAT
-	db 26, ODDISH
+	db 26, DITTO
 	db 30, GLOOM
 ENDC
 IF DEF(_BLUE)
@@ -17,11 +17,11 @@ IF DEF(_BLUE)
 	db 24, VENONAT
 	db 22, BELLSPROUT
 	db 26, VENONAT
-	db 26, BELLSPROUT
+	db 26, DITTO
 	db 30, WEEPINBELL
 ENDC
-	db 28, PIDGEOTTO
-	db 30, PIDGEOTTO
+	db 28, CHANSEY
+	db 30, CHANSEY
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate
