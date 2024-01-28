@@ -15,11 +15,11 @@ SpecialTrainerMoves:
 	db 0
 
 	db MISTY, 1
-	db 2, 3, BUBBLEBEAM
+	db 3, 3, BUBBLEBEAM
 	db 0
 
 	db LT_SURGE, 1
-	db 3, 3, THUNDERBOLT
+	db 4, 4, THUNDERBOLT
 	db 0
 
 	db ERIKA, 1
