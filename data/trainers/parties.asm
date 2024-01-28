@@ -63,7 +63,7 @@ YoungsterData:
 	db 11, RATTATA, EKANS, 0
 	db 14, SPEAROW, 0
 ; Mt. Moon 1F
-	db 10, VENONAT, MAGNEMITE, ZUBAT, 0
+	db 12, VENONAT, MAGNEMITE, ZUBAT, 0
 ; Route 24
 	db 16, POLIWAG, EKANS, MACHOP, 0
 ; Route 25
@@ -111,7 +111,7 @@ LassData:
 ; Route 4
 	db 31, PARAS, PARAS, PARASECT, 0
 ; Mt. Moon 1F
-	db 14, EXEGGCUTE, BELLSPROUT, 0
+	db 14, NIDORAN_M, BELLSPROUT, 0
 	db 15, CLEFAIRY, 0
 ; Route 24
 	db 17, SPEAROW, NIDORAN_M, POLIWAG, 0
@@ -216,7 +216,7 @@ PokemaniacData:
 
 SuperNerdData:
 ; Mt. Moon 1F
-	db 14, MAGNEMITE, VOLTORB, 0
+	db 13, MAGNEMITE, VOLTORB, 0
 ; Mt. Moon B2F
 	db 16, GRIMER, VOLTORB, ELECTABUZZ, 0
 ; Route 8
@@ -235,7 +235,7 @@ SuperNerdData:
 
 HikerData:
 ; Mt. Moon 1F
-	db 15, GEODUDE, MANKEY, ONIX, 0
+	db 14, GEODUDE, MANKEY, ONIX, 0
 ; Route 25
 	db 17, MACHOP, DIGLETT, 0
 	db 16, PARAS, RHYHORN, MACHOP, GEODUDE, 0
