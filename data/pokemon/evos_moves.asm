@@ -668,11 +668,11 @@ GravelerEvosMoves:
 ; Learnset
 	db 11, DEFENSE_CURL
 	db 16, ROCK_THROW
-	db 21, SELFDESTRUCT
-	db 29, HARDEN
-	db 36, EARTHQUAKE
-	db 43, EXPLOSION
-	db 49, ROCK_SLIDE
+	db 21, BULLDOZE
+	db 29, SELFDESTRUCT
+	db 36, ROCK_SLIDE
+	db 43, EARTHQUAKE
+	db 49, EXPLOSION
 	db 0
 
 ChanseyEvosMoves:
@@ -794,11 +794,11 @@ GolemEvosMoves:
 ; Learnset
 	db 11, DEFENSE_CURL
 	db 16, ROCK_THROW
-	db 21, SELFDESTRUCT
-	db 29, HARDEN
-	db 36, EARTHQUAKE
-	db 43, EXPLOSION
-	db 49, ROCK_SLIDE
+	db 21, BULLDOZE
+	db 29, SELFDESTRUCT
+	db 36, ROCK_SLIDE
+	db 43, EARTHQUAKE
+	db 49, EXPLOSION
 	db 0
 
 MissingNo32EvosMoves:
@@ -2059,11 +2059,12 @@ GeodudeEvosMoves:
 ; Learnset
 	db 11, DEFENSE_CURL
 	db 16, ROCK_THROW
-	db 21, SELFDESTRUCT
-	db 26, HARDEN
-	db 31, EARTHQUAKE
-	db 36, EXPLOSION
-	db 42, ROCK_SLIDE
+	db 21, BULLDOZE
+	db 26, SELFDESTRUCT
+	db 31, ROCK_SLIDE
+	db 36, SELFDESTRUCT
+	db 42, EARTHQUAKE
+	db 48, EXPLOSION
 	db 0
 
 PorygonEvosMoves:
