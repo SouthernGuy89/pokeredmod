@@ -512,7 +512,6 @@ ScytherEvosMoves:
 ; Learnset
 	db 17, LEER
 	db 20, FOCUS_ENERGY
-	db 24, DOUBLE_TEAM
 	db 29, SLASH
 	db 35, SWORDS_DANCE
 	db 42, AGILITY
@@ -695,8 +694,8 @@ MachokeEvosMoves:
 	db 0
 ; Learnset
 	db 15, LEER
-	db 20, HEADBUTT
-	db 25, MEDITATE
+	db 20, MEDITATE
+	db 25, HEADBUTT
 	db 33, SUBMISSION
 	db 38, SEISMIC_TOSS
 	db 43, KARATE_CHOP
@@ -1135,7 +1134,6 @@ PikachuEvosMoves:
 	db 6, TAIL_WHIP
 	db 8, QUICK_ATTACK
 	db 11, THUNDER_WAVE
-	db 15, DOUBLE_TEAM
 	db 20, THUNDERPUNCH
 	db 26, AGILITY
 	db 33, THUNDERBOLT
@@ -1150,7 +1148,6 @@ RaichuEvosMoves:
 	db 6, TAIL_WHIP
 	db 8, QUICK_ATTACK
 	db 11, THUNDER_WAVE
-	db 15, DOUBLE_TEAM
 	db 20, THUNDERPUNCH
 	db 26, AGILITY
 	db 33, THUNDERBOLT
@@ -1391,8 +1388,8 @@ MachopEvosMoves:
 	db 0
 ; Learnset
 	db 15, LEER
-	db 20, HEADBUTT
-	db 25, MEDITATE
+	db 20, MEDITATE
+	db 25, HEADBUTT
 	db 30, SUBMISSION
 	db 35, SEISMIC_TOSS
 	db 40, KARATE_CHOP
@@ -1616,8 +1613,8 @@ MachampEvosMoves:
 	db 0
 ; Learnset
 	db 15, LEER
-	db 20, HEADBUTT
-	db 25, MEDITATE
+	db 20, MEDITATE
+	db 25, HEADBUTT
 	db 33, SUBMISSION
 	db 38, SEISMIC_TOSS
 	db 43, KARATE_CHOP
