@@ -4,6 +4,7 @@ CeladonMart3F_Script:
 CeladonMart3F_TextPointers:
 	def_text_pointers
 	dw_const CeladonMart3FClerkText,            TEXT_CELADONMART3F_CLERK
+	dw_const CeladonMart3FTraderText,           TEXT_CELADONMART3F_TRADER
 	dw_const CeladonMart3FGameBoyKid1Text,      TEXT_CELADONMART3F_GAMEBOY_KID1
 	dw_const CeladonMart3FGameBoyKid2Text,      TEXT_CELADONMART3F_GAMEBOY_KID2
 	dw_const CeladonMart3FGameBoyKid3Text,      TEXT_CELADONMART3F_GAMEBOY_KID3
@@ -58,6 +59,13 @@ CeladonMart3FClerkText:
 .TM18NoRoomText:
 	text_far _CeladonMart3FClerkTM18NoRoomText
 	text_end
+
+CeladonMart3FTraderText:
+	text_asm
+	ld a, TRADE_WITH_SELF
+	ld [wWhichTrade], a
+	predef DoInGameTradeDialogue
+	jp TextScriptEnd
 
 CeladonMart3FGameBoyKid1Text:
 	text_far _CeladonMart3FGameBoyKid1Text
