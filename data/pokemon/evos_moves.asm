@@ -1012,11 +1012,12 @@ PoliwagEvosMoves:
 	db EVOLVE_LEVEL, 25, POLIWHIRL
 	db 0
 ; Learnset
-	db 7, HYPNOSIS
+	db  7, POUND
 	db 13, WATER_GUN
 	db 19, DOUBLESLAP
 	db 25, AMNESIA
 	db 31, BODY_SLAM
+	db 36, HYPNOSIS
 	db 43, HYDRO_PUMP
 	db 0
 
@@ -1442,11 +1443,12 @@ PoliwhirlEvosMoves:
 	db EVOLVE_ITEM, WATER_STONE, 1, POLIWRATH
 	db 0
 ; Learnset
-	db 7, HYPNOSIS
+	db  7, POUND
 	db 13, WATER_GUN
 	db 19, DOUBLESLAP
 	db 27, AMNESIA
 	db 35, BODY_SLAM
+	db 39, HYPNOSIS
 	db 43, KARATE_CHOP
 	db 51, HYDRO_PUMP
 	db 0
@@ -1455,11 +1457,12 @@ PoliwrathEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 7, HYPNOSIS
+	db  7, POUND
 	db 13, WATER_GUN
 	db 19, DOUBLESLAP
 	db 27, AMNESIA
 	db 35, BODY_SLAM
+	db 39, HYPNOSIS
 	db 43, KARATE_CHOP
 	db 51, HYDRO_PUMP
 	db 0
