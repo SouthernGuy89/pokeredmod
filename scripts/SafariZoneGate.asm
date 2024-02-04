@@ -185,7 +185,7 @@ SafariZoneGateSafariZoneWorker1WouldYouLikeToJoinText:
 	call PrintText
 	ld a, 30
 	ld [wNumSafariBalls], a
-	ld a, HIGH(502)
+	ld a, HIGH(1002)
 	ld [wSafariSteps], a
 	ld a, LOW(1002)
 	ld [wSafariSteps + 1], a
