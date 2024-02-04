@@ -1,20 +1,20 @@
 Route18WildMons:
 	def_grass_wildmons 25 ; encounter rate
-	db 20, PSYDUCK
-	db 22, DODUO
-	db 25, RATICATE
-	db 24, PSYDUCK
-	db 25, FEAROW
-	db 26, DODUO
-	db 28, DODUO
+	db 36, PSYDUCK
+	db 36, DODUO
+	db 36, RATICATE
+	db 37, PSYDUCK
+	db 37, FEAROW
+	db 36, DODUO
+	db 37, DODUO
 IF DEF(_RED)
-	db 29, SCYTHER
+	db 37, SCYTHER
 ENDC
 IF DEF(_BLUE)
-	db 29, PINSIR
+	db 37, PINSIR
 ENDC
-	db 27, FEAROW
-	db 29, FEAROW
+	db 37, FEAROW
+	db 38, FEAROW
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate
