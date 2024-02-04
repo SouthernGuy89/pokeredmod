@@ -187,7 +187,7 @@ SafariZoneGateSafariZoneWorker1WouldYouLikeToJoinText:
 	ld [wNumSafariBalls], a
 	ld a, HIGH(502)
 	ld [wSafariSteps], a
-	ld a, LOW(502)
+	ld a, LOW(1002)
 	ld [wSafariSteps + 1], a
 	ld a, D_UP
 	ld c, 3
