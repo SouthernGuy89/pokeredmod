@@ -398,8 +398,12 @@ GetMonHeader::
 	jr z, .specialID
 	cp MEW
 	jr z, .mew
-	predef IndexToPokedex
+	predef IndexToPokedex   ; convert pokemon ID in [wd11e] to pokedex number
 	ld a, [wPokedexNum]
+	;cp $0
+	;jr z, .findLookupAddress
+	;ld a, [BikerData]
+.findLookupAddress
 	dec a
 	ld bc, BASE_DATA_SIZE
 	ld hl, BaseStats
