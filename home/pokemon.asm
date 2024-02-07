@@ -400,7 +400,6 @@ GetMonHeader::
 	jr z, .mew
 	predef IndexToPokedex   ; convert pokemon ID in [wd11e] to pokedex number
 	ld a, [wd11e]
-	dec a
 	ld bc, BASE_DATA_SIZE
 	ld hl, BaseStats
 	call AddNTimes
