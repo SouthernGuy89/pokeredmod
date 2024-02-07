@@ -7,8 +7,8 @@
 	db  29 ; catch rate
 	db 143 ; base exp
 
-	INCBIN "gfx/pokemon/front/mewtwo.pic", 0, 1 ; sprite dimensions
-	dw MewtwoPicFront, MewtwoPicBack
+	db $88 ; sprite dimensions
+	dw $190C, MewtwoPicBack
 
 	db WATER_GUN, WATER_GUN, SKY_ATTACK, NO_MOVE ; level 1 learnset
 	db 26 ; growth rate
