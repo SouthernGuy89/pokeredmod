@@ -15,7 +15,7 @@
 
 	; tm/hm learnset
 	tmhm RAZOR_WIND,   WHIRLWIND,    TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  \
-	     RAGE,         MEGA_DRAIN,   MIMIC,        DOUBLE_TEAM,  BIDE,         \
+	     RAGE,         MEGA_DRAIN,   MIMIC,        DOUBLE_TEAM,           \
 	     SWIFT,        REST,         SUBSTITUTE,   SWORDS_DANCE
 	; end
 
