@@ -19,7 +19,8 @@
 	     HYPER_BEAM,   DRAGON_RAGE,  THUNDERBOLT,  THUNDER,      \
 	     MIMIC,        DOUBLE_TEAM,  REFLECT,      BULLDOZE,     FIRE_BLAST,   \
 	     SWIFT,        SKULL_BASH,   REST,         THUNDER_WAVE, SUBSTITUTE,   \
-	     SURF,         STRENGTH
+	     SURF,         STRENGTH, \
+		 THUNDERPUNCH
 	; end
 
 	db 0 ; padding

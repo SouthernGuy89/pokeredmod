@@ -18,7 +18,8 @@
 	     DOUBLE_EDGE,  HYPER_BEAM,   SUBMISSION,   COUNTER,      SEISMIC_TOSS, \
 	     PSYCHIC_M,    TELEPORT,     MIMIC,        DOUBLE_TEAM,  \
 	     METRONOME,    FIRE_BLAST,   SKULL_BASH,   REST,         \
-	     PSYWAVE,      SUBSTITUTE,   STRENGTH
+	     PSYWAVE,      SUBSTITUTE,   STRENGTH, \
+		 THUNDERPUNCH
 	; end
 
 	db 0 ; padding

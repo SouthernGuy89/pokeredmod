@@ -19,7 +19,8 @@
 	     HYPER_BEAM,   SUBMISSION,   COUNTER,      SEISMIC_TOSS,          \
 	     THUNDERBOLT,  THUNDER,      EARTHQUAKE,   FISSURE,      MIMIC,        \
 	     DOUBLE_TEAM,  BULLDOZE,     FIRE_BLAST,   SKULL_BASH,   REST,         \
-	     ROCK_SLIDE,   SUBSTITUTE,   SURF,         STRENGTH
+	     ROCK_SLIDE,   SUBSTITUTE,   SURF,         STRENGTH, \
+		 THUNDERPUNCH
 	; end
 
 	db 0 ; padding

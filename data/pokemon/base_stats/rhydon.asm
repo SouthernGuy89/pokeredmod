@@ -20,7 +20,8 @@
 	     SEISMIC_TOSS, THUNDERBOLT,  THUNDER,      EARTHQUAKE,   \
 	     FISSURE,      DIG,          MIMIC,        DOUBLE_TEAM,  BULLDOZE,     \
 	     FIRE_BLAST,   SKULL_BASH,   REST,         ROCK_SLIDE,   SUBSTITUTE,   \
-	     SURF,         STRENGTH
+	     SURF,         STRENGTH, \
+		 THUNDERPUNCH
 	; end
 
 	db 0 ; padding

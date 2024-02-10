@@ -19,7 +19,8 @@
 	     MEGA_DRAIN,   THUNDERBOLT,  THUNDER,      PSYCHIC_M,    \
 	     MIMIC,        DOUBLE_TEAM,  METRONOME,    SELFDESTRUCT, \
 	     SKULL_BASH,   DREAM_EATER,  REST,         PSYWAVE,      EXPLOSION,    \
-	     SUBSTITUTE,   STRENGTH
+	     SUBSTITUTE,   STRENGTH, \
+		 THUNDERPUNCH
 	; end
 
 	db 0 ; padding
