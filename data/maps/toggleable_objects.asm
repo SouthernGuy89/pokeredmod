@@ -185,7 +185,6 @@ ToggleableObjectStates:
 
 	toggleable_objects_for POWER_PLANT
 	toggle_object_state POWERPLANT_VOLTORB1,   ON
-	toggle_object_state POWERPLANT_VOLTORB2,   ON
 	toggle_object_state POWERPLANT_VOLTORB3,   ON
 	toggle_object_state POWERPLANT_ELECTRODE1, ON
 	toggle_object_state POWERPLANT_VOLTORB4,   ON
@@ -196,6 +195,7 @@ ToggleableObjectStates:
 	toggle_object_state POWERPLANT_CARBOS,     ON
 	toggle_object_state POWERPLANT_HP_UP,      ON
 	toggle_object_state POWERPLANT_RARE_CANDY, ON
+	toggle_object_state POWERPLANT_TM_THUNDERBOLT, ON
 	toggle_object_state POWERPLANT_TM_THUNDER, ON
 	toggle_object_state POWERPLANT_TM_REFLECT, ON
 
