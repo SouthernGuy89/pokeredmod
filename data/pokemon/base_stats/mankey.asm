@@ -17,7 +17,7 @@
 	tmhm MEGA_PUNCH,   MEGA_KICK,    TOXIC,        BODY_SLAM,    TAKE_DOWN,    \
 	     DOUBLE_EDGE,  PAY_DAY,      SUBMISSION,   COUNTER,      SEISMIC_TOSS, \
 	     THUNDERBOLT,  THUNDER,      DIG,          MIMIC,        \
-	     DOUBLE_TEAM,  BULLDOZE,     METRONOME,    SWIFT,        SKULL_BASH,   \
+	     DOUBLE_TEAM,  ROCK_THROW,     METRONOME,    SWIFT,        SKULL_BASH,   \
 	     REST,         ROCK_SLIDE,   SUBSTITUTE,   STRENGTH, \
 		 THUNDERPUNCH
 	; end

@@ -16,9 +16,10 @@
 	; tm/hm learnset
 	tmhm MEGA_PUNCH,   MEGA_KICK,    TOXIC,        BODY_SLAM,    TAKE_DOWN,    \
 	     DOUBLE_EDGE,  SUBMISSION,   COUNTER,      SEISMIC_TOSS,          \
-	     MIMIC,        DOUBLE_TEAM,  BULLDOZE,     METRONOME,    SWIFT,        \
+	     MIMIC,        DOUBLE_TEAM,  ROCK_THROW,     METRONOME,    SWIFT,        \
 	     SKULL_BASH,   REST,         SUBSTITUTE,   STRENGTH, \
-		 THUNDERPUNCH
+		 THUNDERPUNCH, \
+		 ROCK_SLIDE
 	; end
 
 	db 0 ; padding
