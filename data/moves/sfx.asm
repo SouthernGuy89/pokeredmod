@@ -172,6 +172,7 @@ MoveSoundTable:
 	db SFX_SUPER_EFFECTIVE,    $00, $a0 ; BULLDOZE
 	db SFX_BATTLE_12,          $10, $a0 ; BRAVE_BIRD
 	db SFX_BATTLE_19,          $21, $e0 ; FLAME_WHEEL
+	db SFX_BATTLE_2F,          $00, $20 ; SPARK
 	db SFX_BATTLE_0B,          $00, $80 ; STRUGGLE
 	assert_table_length NUM_ATTACKS
 	db SFX_BATTLE_0B,          $00, $80
