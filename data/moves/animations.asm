@@ -171,6 +171,7 @@ AttackAnimationPointers:
 	dw BulldozeAnim
 	dw BraveBirdAnim
 	dw FlameWheelAnim
+	dw SparkAnim
 	dw StruggleAnim
 	assert_table_length NUM_ATTACKS
 	dw ShowPicAnim
@@ -693,6 +694,7 @@ FireSpinAnim:
 	battle_anim NO_MOVE, SUBANIM_1_FLAME_COLUMN_3, 1, 6
 	db -1 ; end
 
+SparkAnim:
 ThunderShockAnim:
 	battle_anim THUNDERSHOCK, SUBANIM_1_LIGHTNING_BALL, 1, 2
 	db -1 ; end

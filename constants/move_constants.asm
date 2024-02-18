@@ -177,7 +177,8 @@
 	const BULLDOZE     ; a9
 	const BRAVE_BIRD   ; aa
 	const FLAME_WHEEL  ; ab
-	const STRUGGLE     ; ac
+	const SPARK        ; ac
+	const STRUGGLE     ; ad
 DEF NUM_ATTACKS EQU const_value - 1
 
 	; Moves do double duty as animation identifiers.
