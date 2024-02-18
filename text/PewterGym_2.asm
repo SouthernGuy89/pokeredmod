@@ -31,7 +31,7 @@ _TM34ExplanationText::
 	cont "#MON!"
 
 	para "TM34 contains"
-	line "BULLDOZE!"
+	line "ROCK THROW!"
 
 	para "Your #MON will"
 	line "deal ground damage"

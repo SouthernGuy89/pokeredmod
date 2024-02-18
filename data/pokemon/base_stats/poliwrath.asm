@@ -18,8 +18,9 @@
 	     DOUBLE_EDGE,  BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     BLIZZARD,     \
 	     HYPER_BEAM,   SUBMISSION,   COUNTER,      SEISMIC_TOSS,          \
 	     EARTHQUAKE,   FISSURE,      PSYCHIC_M,    MIMIC,        DOUBLE_TEAM,  \
-	     BULLDOZE,     METRONOME,    SKULL_BASH,   REST,         PSYWAVE,      \
-	     SUBSTITUTE,   SURF,         STRENGTH
+	     ROCK_THROW,     METRONOME,    SKULL_BASH,   REST,         PSYWAVE,      \
+	     SUBSTITUTE,   SURF,         STRENGTH, \
+		 ROCK_SLIDE
 	; end
 
 	db 0 ; padding

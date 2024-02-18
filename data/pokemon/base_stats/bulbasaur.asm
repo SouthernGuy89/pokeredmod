@@ -16,7 +16,7 @@
 	; tm/hm learnset
 	tmhm SWORDS_DANCE, TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
 	     MEGA_DRAIN,   SOLARBEAM,    MIMIC,        DOUBLE_TEAM,  \
-	     REFLECT,      BULLDOZE,     REST,         SUBSTITUTE,   CUT
+	     REFLECT,      REST,         SUBSTITUTE,   CUT
 	; end
 
 	db 0 ; padding

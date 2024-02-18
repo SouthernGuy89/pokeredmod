@@ -16,7 +16,7 @@
 	; tm/hm learnset
 	tmhm RAZOR_WIND,   SWORDS_DANCE, WHIRLWIND,    TOXIC,        BODY_SLAM,    \
 	     TAKE_DOWN,    DOUBLE_EDGE,  MIMIC,        DOUBLE_TEAM,  \
-	     REFLECT,      BULLDOZE,     SWIFT,        SKULL_BASH,   REST,         \
+	     REFLECT,      ROCK_THROW,     SWIFT,        SKULL_BASH,   REST,         \
 	     SUBSTITUTE,   CUT,          FLY
 	; end
 
