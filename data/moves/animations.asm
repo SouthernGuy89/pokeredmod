@@ -170,6 +170,7 @@ AttackAnimationPointers:
 	dw MegaHornAnim
 	dw BulldozeAnim
 	dw BraveBirdAnim
+	dw FlameWheelAnim
 	dw StruggleAnim
 	assert_table_length NUM_ATTACKS
 	dw ShowPicAnim
@@ -512,6 +513,10 @@ FlamethrowerAnim:
 	battle_anim FLAMETHROWER, SUBANIM_1_FLAME_BEAM, 1, 6
 	battle_anim FLAMETHROWER, SUBANIM_1_FLAME_COLUMN_1, 1, 6
 	battle_anim FLAMETHROWER, SUBANIM_1_FLAME_COLUMN_2, 1, 6
+	db -1 ; end
+
+FlameWheelAnim:
+	battle_anim FLAMETHROWER, SUBANIM_1_FLAME_BEAM, 1, 6
 	db -1 ; end
 
 MistAnim:

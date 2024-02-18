@@ -181,5 +181,6 @@ Moves:
 	move MEGAHORN,     NO_ADDITIONAL_EFFECT,       120, BUG,           85, 10
 	move BULLDOZE,     SPEED_DOWN_SIDE_EFFECT,      60, GROUND,       100, 20
 	move BRAVE_BIRD,   RECOIL_EFFECT,              120, FLYING,       100, 15
+	move FLAME_WHEEL,  BURN_SIDE_EFFECT1,           65, FIRE,         100, 20
 	move STRUGGLE,     RECOIL_EFFECT,               50, NORMAL,       100, 10
 	assert_table_length NUM_ATTACKS
