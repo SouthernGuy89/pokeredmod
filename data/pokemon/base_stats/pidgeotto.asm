@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/pidgeotto.pic", 0, 1 ; sprite dimensions
 	dw PidgeottoPicFront, PidgeottoPicBack
 
-	db TACKLE, SAND_ATTACK, NO_MOVE, NO_MOVE ; level 1 learnset
+	db TACKLE, GUST, NO_MOVE, NO_MOVE ; level 1 learnset
 	db GROWTH_MEDIUM_SLOW ; growth rate
 
 	; tm/hm learnset
