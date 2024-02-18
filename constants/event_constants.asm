@@ -111,7 +111,7 @@
 	const EVENT_BEAT_VERMILION_GYM_TRAINER_1
 	const EVENT_BEAT_VERMILION_GYM_TRAINER_2
 	const_skip
-	const EVENT_GOT_TM24
+	const EVENT_GOT_TM20
 	const EVENT_BEAT_LT_SURGE
 
 ; Celadon City events
