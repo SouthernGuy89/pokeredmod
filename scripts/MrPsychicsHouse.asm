@@ -7,23 +7,23 @@ MrPsychicsHouse_TextPointers:
 
 MrPsychicsHouseMrPsychicText:
 	text_asm
-	CheckEvent EVENT_GOT_TM29
+	CheckEvent EVENT_GOT_TM46
 	jr nz, .got_item
 	ld hl, .YouWantedThisText
 	call PrintText
 	lb bc, TM_PSYCHIC_M, 1
 	call GiveItem
 	jr nc, .bag_full
-	ld hl, .ReceivedTM29Text
+	ld hl, .ReceivedTM46Text
 	call PrintText
-	SetEvent EVENT_GOT_TM29
+	SetEvent EVENT_GOT_TM46
 	jr .done
 .bag_full
-	ld hl, .TM29NoRoomText
+	ld hl, .TM46NoRoomText
 	call PrintText
 	jr .done
 .got_item
-	ld hl, .TM29ExplanationText
+	ld hl, .TM46ExplanationText
 	call PrintText
 .done
 	jp TextScriptEnd
@@ -32,15 +32,15 @@ MrPsychicsHouseMrPsychicText:
 	text_far _MrPsychicsHouseMrPsychicYouWantedThisText
 	text_end
 
-.ReceivedTM29Text:
-	text_far _MrPsychicsHouseMrPsychicReceivedTM29Text
+.ReceivedTM46Text:
+	text_far _MrPsychicsHouseMrPsychicReceivedTM46Text
 	sound_get_item_1
 	text_end
 
-.TM29ExplanationText:
-	text_far _MrPsychicsHouseMrPsychicTM29ExplanationText
+.TM46ExplanationText:
+	text_far _MrPsychicsHouseMrPsychicTM46ExplanationText
 	text_end
 
-.TM29NoRoomText:
-	text_far _MrPsychicsHouseMrPsychicTM29NoRoomText
+.TM46NoRoomText:
+	text_far _MrPsychicsHouseMrPsychicTM46NoRoomText
 	text_end
