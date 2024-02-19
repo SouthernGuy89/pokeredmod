@@ -43,7 +43,7 @@ SaffronGymSabrinaPostBattle:
 	ld a, D_RIGHT | D_LEFT | D_UP | D_DOWN
 	ld [wJoyIgnore], a
 
-SaffronGymSabrinaReceiveTM46Script:
+SaffronGymSabrinaReceiveTM29Script:
 	ld a, TEXT_SAFFRONGYM_SABRINA_MARSH_BADGE_INFO
 	ldh [hSpriteIndexOrTextID], a
 	call DisplayTextID
@@ -51,13 +51,13 @@ SaffronGymSabrinaReceiveTM46Script:
 	lb bc, TM_PSYWAVE, 1
 	call GiveItem
 	jr nc, .BagFull
-	ld a, TEXT_SAFFRONGYM_SABRINA_RECEIVED_TM46
+	ld a, TEXT_SAFFRONGYM_SABRINA_RECEIVED_TM29
 	ldh [hSpriteIndexOrTextID], a
 	call DisplayTextID
-	SetEvent EVENT_GOT_TM46
+	SetEvent EVENT_GOT_TM29
 	jr .gymVictory
 .BagFull
-	ld a, TEXT_SAFFRONGYM_SABRINA_TM46_NO_ROOM
+	ld a, TEXT_SAFFRONGYM_SABRINA_TM29_NO_ROOM
 	ldh [hSpriteIndexOrTextID], a
 	call DisplayTextID
 .gymVictory
@@ -83,8 +83,8 @@ SaffronGym_TextPointers:
 	dw_const SaffronGymYoungster4Text,            TEXT_SAFFRONGYM_YOUNGSTER4
 	dw_const SaffronGymGymGuideText,              TEXT_SAFFRONGYM_GYM_GUIDE
 	dw_const SaffronGymSabrinaMarshBadgeInfoText, TEXT_SAFFRONGYM_SABRINA_MARSH_BADGE_INFO
-	dw_const SaffronGymSabrinaReceivedTM46Text,   TEXT_SAFFRONGYM_SABRINA_RECEIVED_TM46
-	dw_const SaffronGymSabrinaTM46NoRoomText,     TEXT_SAFFRONGYM_SABRINA_TM46_NO_ROOM
+	dw_const SaffronGymSabrinaReceivedTM29Text,   TEXT_SAFFRONGYM_SABRINA_RECEIVED_TM29
+	dw_const SaffronGymSabrinaTM29NoRoomText,     TEXT_SAFFRONGYM_SABRINA_TM29_NO_ROOM
 
 SaffronGymTrainerHeaders:
 	def_trainers 2
@@ -108,9 +108,9 @@ SaffronGymSabrinaText:
 	text_asm
 	CheckEvent EVENT_BEAT_SABRINA
 	jr z, .beforeBeat
-	CheckEventReuseA EVENT_GOT_TM46
+	CheckEventReuseA EVENT_GOT_TM29
 	jr nz, .afterBeat
-	call z, SaffronGymSabrinaReceiveTM46Script
+	call z, SaffronGymSabrinaReceiveTM29Script
 	call DisableWaitingAfterTextDisplay
 	jr .done
 .afterBeat
@@ -155,14 +155,14 @@ SaffronGymSabrinaMarshBadgeInfoText:
 	text_far _SaffronGymSabrinaMarshBadgeInfoText
 	text_end
 
-SaffronGymSabrinaReceivedTM46Text:
-	text_far _SaffronGymSabrinaReceivedTM46Text
+SaffronGymSabrinaReceivedTM29Text:
+	text_far _SaffronGymSabrinaReceivedTM29Text
 	sound_get_item_1
-	text_far _TM46ExplanationText
+	text_far _TM29ExplanationText
 	text_end
 
-SaffronGymSabrinaTM46NoRoomText:
-	text_far _SaffronGymSabrinaTM46NoRoomText
+SaffronGymSabrinaTM29NoRoomText:
+	text_far _SaffronGymSabrinaTM29NoRoomText
 	text_end
 
 SaffronGymChanneler1Text:

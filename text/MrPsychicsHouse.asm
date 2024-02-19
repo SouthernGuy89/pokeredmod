@@ -5,22 +5,22 @@ _MrPsychicsHouseMrPsychicYouWantedThisText::
 	para "You wanted this!"
 	prompt
 
-_MrPsychicsHouseMrPsychicReceivedTM29Text::
+_MrPsychicsHouseMrPsychicReceivedTM46Text::
 	text "<PLAYER> received"
 	line "@"
 	text_ram wStringBuffer
 	text "!@"
 	text_end
 
-_MrPsychicsHouseMrPsychicTM29ExplanationText::
-	text "TM29 is PSYCHIC!"
+_MrPsychicsHouseMrPsychicTM46ExplanationText::
+	text "TM46 is PSYWAVE!"
 
-	para "It can lower the"
-	line "target's SPECIAL"
-	cont "abilities."
+	para "It uses powerful"
+	line "psychic waves to"
+	cont "inflict damage!"
 	done
 
-_MrPsychicsHouseMrPsychicTM29NoRoomText::
+_MrPsychicsHouseMrPsychicTM46NoRoomText::
 	text "Where do you plan"
 	line "to put this?"
 	done
