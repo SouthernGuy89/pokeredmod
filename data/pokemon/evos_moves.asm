@@ -206,15 +206,15 @@ RhydonEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+	db 13, TAIL_WHIP
 	db 18, BULLDOZE
 	db 21, ROCK_THROW
 	db 25, STOMP
 	db 30, ROCK_SLIDE
-	db 35, TAIL_WHIP
-	db 40, FURY_ATTACK
-	db 45, HORN_DRILL
-	db 55, EARTHQUAKE
-	db 60, BODY_SLAM
+	db 35, FURY_ATTACK
+	db 40, HORN_DRILL
+	db 50, EARTHQUAKE
+	db 55, BODY_SLAM
 	db 0
 
 KangaskhanEvosMoves:
@@ -440,15 +440,15 @@ RhyhornEvosMoves:
 	db EVOLVE_LEVEL, 42, RHYDON
 	db 0
 ; Learnset
+	db 13, TAIL_WHIP
 	db 18, BULLDOZE
 	db 21, ROCK_THROW
 	db 25, STOMP
 	db 30, ROCK_SLIDE
-	db 35, TAIL_WHIP
-	db 40, FURY_ATTACK
-	db 43, HORN_DRILL
-	db 50, EARTHQUAKE
-	db 55, BODY_SLAM
+	db 35, FURY_ATTACK
+	db 40, HORN_DRILL
+	db 45, EARTHQUAKE
+	db 50, BODY_SLAM
 	db 0
 
 LaprasEvosMoves:
@@ -460,7 +460,7 @@ LaprasEvosMoves:
 	db 25, SING
 	db 30, CONFUSE_RAY
 	db 35, BODY_SLAM
-	db 40, ICE_BEAM
+	db 46, ICE_BEAM
 	db 50, HYDRO_PUMP
 	db 0
 
@@ -474,7 +474,7 @@ ArcanineEvosMoves:
 	db 26, LEER
 	db 34, BODY_SLAM
 	db 39, AGILITY
-	db 44, FLAMETHROWER
+	db 45, FLAMETHROWER
 	db 53, FIRE_BLAST
 	db 0
 
@@ -633,7 +633,7 @@ GrowlitheEvosMoves:
 	db 26, LEER
 	db 34, BODY_SLAM
 	db 39, AGILITY
-	db 44, FLAMETHROWER
+	db 45, FLAMETHROWER
 	db 53, FIRE_BLAST
 	db 0
 
@@ -716,7 +716,7 @@ GravelerEvosMoves:
 	db 21, BULLDOZE
 	db 33, ROCK_SLIDE
 	db 40, SELFDESTRUCT
-	db 50, EARTHQUAKE
+	db 49, EARTHQUAKE
 	db 55, EXPLOSION
 	db 0
 
@@ -850,7 +850,7 @@ GolemEvosMoves:
 	db 21, BULLDOZE
 	db 33, ROCK_SLIDE
 	db 40, SELFDESTRUCT
-	db 50, EARTHQUAKE
+	db 49, EARTHQUAKE
 	db 55, EXPLOSION
 	db 0
 
@@ -870,7 +870,7 @@ MagmarEvosMoves:
 	db 21, LEER
 	db 28, FIRE_PUNCH
 	db 35, CONFUSE_RAY
-	db 42, FLAMETHROWER
+	db 44, FLAMETHROWER
 	db 54, FIRE_BLAST
 	db 0
 
@@ -888,8 +888,8 @@ ElectabuzzEvosMoves:
 	db 21, SCREECH
 	db 28, THUNDERPUNCH
 	db 35, THUNDER_WAVE
-	db 42, THUNDERBOLT
-	db 48, LIGHT_SCREEN
+	db 40, LIGHT_SCREEN
+	db 45, THUNDERBOLT
 	db 54, THUNDER
 	db 0
 
@@ -1211,9 +1211,9 @@ PikachuEvosMoves:
 	db 15, AGILITY
 	db 21, HEADBUTT
 	db 30, THUNDER_WAVE
-	db 44, THUNDERBOLT
-	db 49, THUNDER
-	db 53, LIGHT_SCREEN
+	db 38, LIGHT_SCREEN
+	db 46, THUNDERBOLT
+	db 50, THUNDER
 	db 0
 
 RaichuEvosMoves:
@@ -1225,9 +1225,9 @@ RaichuEvosMoves:
 	db 15, AGILITY
 	db 21, HEADBUTT
 	db 30, THUNDER_WAVE
-	db 44, THUNDERBOLT
-	db 49, THUNDER
-	db 53, LIGHT_SCREEN
+	db 38, LIGHT_SCREEN
+	db 46, THUNDERBOLT
+	db 50, THUNDER
 	db 0
 
 MissingNo56EvosMoves:
@@ -1352,7 +1352,7 @@ SandslashEvosMoves:
 	db 30, DIG
 	db 36, SLASH
 	db 47, SWORDS_DANCE
-	db 52, EARTHQUAKE
+	db 49, EARTHQUAKE
 	db 0
 
 OmanyteEvosMoves:
@@ -2123,8 +2123,8 @@ PonytaEvosMoves:
 	db 21, STOMP
 	db 28, FLAME_WHEEL
 	db 34, BODY_SLAM
-	db 40, FLAMETHROWER
-	db 43, FIRE_SPIN
+	db 37, FIRE_SPIN
+	db 44, FLAMETHROWER
 	db 48, AGILITY
 	db 51, FIRE_BLAST
 	db 0
@@ -2138,8 +2138,8 @@ RapidashEvosMoves:
 	db 21, STOMP
 	db 28, FLAME_WHEEL
 	db 34, BODY_SLAM
-	db 40, FLAMETHROWER
-	db 46, FIRE_SPIN
+	db 39, FIRE_SPIN
+	db 44, FLAMETHROWER
 	db 52, AGILITY
 	db 55, FIRE_BLAST
 	db 0
@@ -2207,7 +2207,7 @@ GeodudeEvosMoves:
 	db 21, BULLDOZE
 	db 30, ROCK_SLIDE
 	db 36, SELFDESTRUCT
-	db 44, EARTHQUAKE
+	db 43, EARTHQUAKE
 	db 49, EXPLOSION
 	db 0
 
