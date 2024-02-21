@@ -11,35 +11,63 @@ SpecialTrainerMoves:
 	db 0
 
 	db BROCK, 1
+	db 2, 1, CONSTRICT
+	db 2, 2, ROCK_THROW
 	db 2, 3, BIDE
 	db 0
 
 	db MISTY, 1
+	db 3, 1, SWIFT
+	db 3, 2, CONFUSION
 	db 3, 3, BUBBLEBEAM
 	db 0
 
 	db LT_SURGE, 1
-	db 4, 4, THUNDERBOLT
+	db 4, 1, MEGA_PUNCH
+	db 4, 2, THUNDER_WAVE
+	db 4, 3, MEGA_KICK
+	db 4, 4, THUNDERPUNCH
 	db 0
 
 	db ERIKA, 1
-	db 3, 3, MEGA_DRAIN
+	db 1, 1, RAZOR_LEAF
+	db 1, 2, STUN_SPORE
+	db 1, 3, BODY_SLAM
+	db 1, 4, SWORDS_DANCE
+	db 5, 1, HYPNOSIS
+	db 5, 2, LEECH_SEED
+	db 5, 3, EGG_BOMB
+	db 5, 3, MEGA_DRAIN
 	db 0
 
 	db KOGA, 1
-	db 4, 3, TOXIC
+	db 1, 1, TOXIC
+	db 2, 1, TOXIC
+	db 3, 1, TOXIC
+	db 4, 1, TOXIC
+	db 5, 1, TOXIC
+	db 6, 1, TOXIC
+	db 6, 2, SLUDGE_BOMB
+	db 6, 3, SURF
+	db 6, 4, WRAP
 	db 0
 
 	db BLAINE, 1
-	db 4, 3, FIRE_BLAST
-	db 0
-
-	db SABRINA, 1
-	db 4, 3, PSYWAVE
+	db 6, 1, BODY_SLAM
+	db 6, 2, DIG
+	db 6, 3, FIRE_BLAST
+	db 6, 4, QUICK_ATTACK
 	db 0
 
 	db GIOVANNI, 3
+	db 5, 1, BODY_SLAM
+	db 5, 2, BLIZZARD
 	db 5, 3, EARTHQUAKE
+	db 5, 4, STOMP
+	db 6, 1, EARTHQUAKE
+	db 6, 2, ROCK_SLIDE
+	db 6, 3, BODY_SLAM
+	db 6, 4, NO_MOVE
 	db 0
 
 	db LORELEI, 1
