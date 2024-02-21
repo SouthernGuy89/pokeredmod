@@ -1683,7 +1683,6 @@ CaterpieEvosMoves:
 	db EVOLVE_LEVEL, 7, METAPOD
 	db 0
 ; Learnset
-	db 7, HARDEN
 	db 0
 
 MetapodEvosMoves:
