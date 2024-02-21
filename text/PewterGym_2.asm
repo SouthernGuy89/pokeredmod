@@ -34,9 +34,7 @@ _TM34ExplanationText::
 	line "ROCK THROW!"
 
 	para "Your #MON will"
-	line "deal ground damage"
-	cont "It might lower"
-	cont "speed!"
+	line "deal rock damage"
 	done
 
 _PewterGymTM34NoRoomText::
