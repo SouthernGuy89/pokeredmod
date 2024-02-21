@@ -331,11 +331,6 @@ BlackbeltAI:
 	ret nc
 	jp AIUseXAttack
 
-GiovanniAI:
-	cp 25 percent + 1
-	ret nc
-	jp AIUseGuardSpec
-
 CooltrainerMAI:
 	cp 25 percent + 1
 	ret nc
@@ -355,21 +350,15 @@ CooltrainerFAI:
 	jp AISwitchIfEnoughMons
 
 BrockAI:
+MistyAI:
+LtSurgeAI:
+KogaAI:
+GiovanniAI:
 ; if his active monster has a status condition, use a full heal
 	ld a, [wEnemyMonStatus]
 	and a
 	ret z
 	jp AIUseFullHeal
-
-MistyAI:
-	cp 25 percent + 1
-	ret nc
-	jp AIUseXDefend
-
-LtSurgeAI:
-	cp 25 percent + 1
-	ret nc
-	jp AIUseXSpeed
 
 ErikaAI:
 	cp 50 percent + 1
@@ -379,17 +368,8 @@ ErikaAI:
 	ret nc
 	jp AIUseSuperPotion
 
-KogaAI:
-	cp 25 percent + 1
-	ret nc
-	jp AIUseXAttack
-
-BlaineAI:
-	cp 25 percent + 1
-	ret nc
-	jp AIUseSuperPotion
-
 SabrinaAI:
+BlaineAI:
 	cp 25 percent + 1
 	ret nc
 	ld a, 10
