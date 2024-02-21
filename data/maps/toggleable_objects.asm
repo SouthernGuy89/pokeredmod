@@ -201,7 +201,7 @@ ToggleableObjectStates:
 
 	toggleable_objects_for VICTORY_ROAD_2F
 	toggle_object_state VICTORYROAD2F_MOLTRES,       ON
-	toggle_object_state VICTORYROAD2F_TM_SUBMISSION, ON
+	toggle_object_state VICTORYROAD2F_TM_BLIZZARD, ON
 	toggle_object_state VICTORYROAD2F_FULL_HEAL,     ON
 	toggle_object_state VICTORYROAD2F_TM_MEGA_KICK,  ON
 	toggle_object_state VICTORYROAD2F_GUARD_SPEC,    ON
@@ -235,7 +235,7 @@ ToggleableObjectStates:
 	toggle_object_state SSANNE2F_RIVAL, OFF
 
 	toggleable_objects_for SS_ANNE_1F_ROOMS
-	toggle_object_state SSANNE1FROOMS_TM_BODY_SLAM, ON
+	toggle_object_state SSANNE1FROOMS_REVIVE, ON
 
 	toggleable_objects_for SS_ANNE_2F_ROOMS
 	toggle_object_state SSANNE2FROOMS_MAX_ETHER,  ON
@@ -248,7 +248,7 @@ ToggleableObjectStates:
 
 	toggleable_objects_for VICTORY_ROAD_3F
 	toggle_object_state VICTORYROAD3F_MAX_REVIVE,   ON
-	toggle_object_state VICTORYROAD3F_TM_EXPLOSION, ON
+	toggle_object_state VICTORYROAD3F_TM_BODY_SLAM, ON
 	toggle_object_state VICTORYROAD3F_BOULDER4,     ON
 
 	toggleable_objects_for ROCKET_HIDEOUT_B1F
@@ -355,7 +355,7 @@ ToggleableObjectStates:
 	toggleable_objects_for POKEMON_MANSION_B1F
 	toggle_object_state POKEMONMANSIONB1F_RARE_CANDY,   ON
 	toggle_object_state POKEMONMANSIONB1F_FULL_RESTORE, ON
-	toggle_object_state POKEMONMANSIONB1F_TM_BLIZZARD,  ON
+	toggle_object_state POKEMONMANSIONB1F_TM_ICE_BEAM,  ON
 	toggle_object_state POKEMONMANSIONB1F_TM_SOLARBEAM, ON
 	toggle_object_state POKEMONMANSIONB1F_SECRET_KEY,   ON
 
@@ -380,7 +380,7 @@ ToggleableObjectStates:
 
 	toggleable_objects_for CERULEAN_CAVE_2F
 	toggle_object_state CERULEANCAVE2F_PP_UP,        ON
-	toggle_object_state CERULEANCAVE2F_ULTRA_BALL,   ON
+	toggle_object_state CERULEANCAVE2F_TM_FISSUREL,   ON
 	toggle_object_state CERULEANCAVE2F_FULL_RESTORE, ON
 
 	toggleable_objects_for CERULEAN_CAVE_B1F
