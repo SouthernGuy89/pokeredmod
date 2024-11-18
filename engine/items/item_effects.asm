@@ -2796,9 +2796,17 @@ SendNewMonToBox:
 	ldh a, [hExperience + 2]
 	ld [de], a
 	inc de
-	xor a
-	ld b, NUM_STATS * 2
+; set stat experience based on level
+	ld a, [wCurEnemyLevel]
+	ld hl, 0
+	ld bc, 300
+	call AddNTimes
+	ld b, NUM_STATS
 .statLoop
+	ld a, h
+	ld [de], a
+	inc de
+	ld a, l
 	ld [de], a
 	inc de
 	dec b

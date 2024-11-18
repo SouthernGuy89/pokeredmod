@@ -212,11 +212,20 @@ _AddPartyMon::
 	inc de
 	ldh a, [hExperience + 2]
 	ld [de], a
-	xor a
-	ld b, NUM_STATS * 2
-.writeEVsLoop              ; set all EVs to 0
 	inc de
+; set stat experience based on level
+	ld a, [wCurEnemyLevel]
+	ld hl, 0
+	ld bc, 300
+	call AddNTimes
+	ld b, NUM_STATS
+.writeEVsLoop              ; set all EVs based on level
+	ld a, h
 	ld [de], a
+	inc de
+	ld a, l
+	ld [de], a
+	inc de
 	dec b
 	jr nz, .writeEVsLoop
 	inc de
