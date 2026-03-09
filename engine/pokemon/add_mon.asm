@@ -212,7 +212,6 @@ _AddPartyMon::
 	inc de
 	ldh a, [hExperience + 2]
 	ld [de], a
-	inc de
 ; set stat experience based on level
 	ld a, [wCurEnemyLevel]
 	ld hl, 0
@@ -248,8 +247,17 @@ _AddPartyMon::
 	pop hl
 	ld bc, MON_HP_EXP - 1
 	add hl, bc
-	ld b, $0
-	call CalcStats         ; calculate fresh set of stats
+	ld b, $1
+	call CalcStat      ; calc HP stat (set cur Hp to max HP)
+	ldh a, [hMultiplicand+1]
+	ld [de], a
+	inc de
+	ldh a, [hMultiplicand+2]
+	ld [de], a
+	inc de
+	call CalcStatsNoHP         ; calculate fresh set of stats
+	
+
 .done
 	scf
 	ret
