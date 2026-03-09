@@ -220,12 +220,12 @@ _AddPartyMon::
 	call AddNTimes
 	ld b, NUM_STATS
 .writeEVsLoop              ; set all EVs based on level
+	inc de
 	ld a, h
 	ld [de], a
 	inc de
 	ld a, l
 	ld [de], a
-	inc de
 	dec b
 	jr nz, .writeEVsLoop
 	inc de
