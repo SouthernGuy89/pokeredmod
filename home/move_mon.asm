@@ -47,6 +47,25 @@ CalcStats::
 	jr nz, .statsLoop
 	ret
 
+; beautiful copy-paste code
+; bad coding practices are okay as long as you admit them in the comments
+CalcStatsNoHP::
+	ld c, $0
+.statsLoopNoHP
+	inc c
+	call CalcStat
+	ldh a, [hMultiplicand+1]
+	ld [de], a
+	inc de
+	ldh a, [hMultiplicand+2]
+	ld [de], a
+	inc de
+	ld a, c
+	cp NUM_STATS - 1
+	jr nz, .statsLoopNoHP
+	ret
+
+
 ; calculates stat c of current mon
 ; c: stat to calc (HP=1,Atk=2,Def=3,Spd=4,Spc=5)
 ; b: consider stat exp?
