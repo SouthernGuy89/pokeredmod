@@ -47,24 +47,6 @@ CalcStats::
 	jr nz, .statsLoop
 	ret
 
-; beautiful copy-paste code
-; bad coding practices are okay as long as you admit them in the comments
-CalcStatsNoHP::
-	ld c, $0
-.statsLoopNoHP
-	inc c
-	call CalcStat
-	ldh a, [hMultiplicand+1]
-	ld [de], a
-	inc de
-	ldh a, [hMultiplicand+2]
-	ld [de], a
-	inc de
-	ld a, c
-	cp NUM_STATS - 1
-	jr nz, .statsLoopNoHP
-	ret
-
 
 ; calculates stat c of current mon
 ; c: stat to calc (HP=1,Atk=2,Def=3,Spd=4,Spc=5)
@@ -87,7 +69,7 @@ CalcStat::
 	sla c
 	ld a, d
 	and a
-	jr z, .statExpDone  ; consider stat exp?
+	jr z, .statExpByLevel  ; consider stat exp?
 	add hl, bc          ; skip to corresponding stat exp value
 .statExpLoop            ; calculates ceil(Sqrt(stat exp)) in b
 	xor a
@@ -109,6 +91,37 @@ CalcStat::
 	ldh a, [hProduct + 2]
 	sbc d               ; test if (current stat exp bonus)^2 < stat exp
 	jr c, .statExpLoop
+	jr .statExpDone
+.statExpByLevel
+	push hl
+	push bc
+	ld a, [wCurEnemyLevel]
+	ld hl, 0
+	ld bc, 250
+	call AddNTimes
+	pop bc
+.statExpByLevelLoop            ; calculates ceil(Sqrt(stat exp)) in b
+	xor a
+	ldh [hMultiplicand], a
+	ldh [hMultiplicand+1], a
+	inc b               ; increment current stat exp bonus
+	ld a, b
+	cp $ff
+	jr z, .statExpDone
+	ldh [hMultiplicand+2], a
+	ldh [hMultiplier], a
+	call Multiply
+	ld a, l
+	ld d, a
+	ldh a, [hProduct + 3]
+	sub d
+	ld a, h
+	ld d, a
+	ldh a, [hProduct + 2]
+	sbc d               ; test if (current stat exp bonus)^2 < stat exp
+	jr c, .statExpByLevelLoop
+.statExpByLevelDone
+	pop hl
 .statExpDone
 	srl c
 	pop hl
