@@ -248,7 +248,7 @@ ToggleableObjectStates:
 
 	toggleable_objects_for VICTORY_ROAD_3F
 	toggle_object_state VICTORYROAD3F_MAX_REVIVE,   ON
-	toggle_object_state VICTORYROAD3F_TM_BODY_SLAM, ON
+	toggle_object_state VICTORYROAD3F_TM_EXPLOSION, ON
 	toggle_object_state VICTORYROAD3F_BOULDER4,     ON
 
 	toggleable_objects_for ROCKET_HIDEOUT_B1F
@@ -333,7 +333,7 @@ ToggleableObjectStates:
 	toggle_object_state SILPHCO10F_ROCKET,         ON
 	toggle_object_state SILPHCO10F_SCIENTIST,      ON
 	toggle_object_state SILPHCO10F_SILPH_WORKER_F, ON
-	toggle_object_state SILPHCO10F_TM_EARTHQUAKE,  ON
+	toggle_object_state SILPHCO10F_TM_BODY_SLAM,  ON
 	toggle_object_state SILPHCO10F_RARE_CANDY,     ON
 	toggle_object_state SILPHCO10F_CARBOS,         ON
 
@@ -380,7 +380,7 @@ ToggleableObjectStates:
 
 	toggleable_objects_for CERULEAN_CAVE_2F
 	toggle_object_state CERULEANCAVE2F_PP_UP,        ON
-	toggle_object_state CERULEANCAVE2F_TM_FISSUREL,   ON
+	toggle_object_state CERULEANCAVE2F_TM_FISSURE,   ON
 	toggle_object_state CERULEANCAVE2F_FULL_RESTORE, ON
 
 	toggleable_objects_for CERULEAN_CAVE_B1F

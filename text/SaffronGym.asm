@@ -63,7 +63,7 @@ _SaffronGymSabrinaReceivedTM29Text::
 _TM29ExplanationText::
 	text_start
 
-	para "TM29 is PSYCHIC_M!"
+	para "TM29 is PSYCHIC!"
 	line "It can lower the"
 	cont "target's SPECIAL"
 	cont "abilities."

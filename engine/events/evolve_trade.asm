@@ -1,4 +1,4 @@
-EvolveTradeMon:
+InGameTrade_CheckForTradeEvo:
 ; Verify the TradeMon's species name before
 ; attempting to initiate a trade evolution.
 	ld a, TRUE
